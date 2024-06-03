@@ -10,7 +10,7 @@ curl --location 'http://localhost:8080/skiply/students' \
 }'
 
 
-Add Fees Curl
+Collect Fees Curl
 
 curl --location 'http://localhost:8080/skiply/fees/collectFees' \
 --header 'Content-Type: application/json' \
