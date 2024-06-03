@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "d533bb7d-d431-4857-b29e-e1c4a0f86ed4",
+		"name": "RAK BANK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35946094"
+	},
+	"item": [
+		{
+			"name": "Add New Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{\n  \"id\": 0,\n  \"studentName\": \"string\",\n  \"studentId\": \"string\",\n  \"grade\": \"string\",\n  \"mobileNumber\": \"string\",\n  \"schoolName\": \"string\"\n}",
+					"host": [
+						"{\n  \"id\": 0,\n  \"studentName\": \"string\",\n  \"studentId\": \"string\",\n  \"grade\": \"string\",\n  \"mobileNumber\": \"string\",\n  \"schoolName\""
+					],
+					"port": " \"string\"\n}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Collect fees",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "View Reciept",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
