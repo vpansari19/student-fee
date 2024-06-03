@@ -6,3 +6,4 @@
 
 6. Postman collection is also checked into the repo.
 7. URL for swagger - http://localhost:8080/skiply/swagger-ui/index.html#/
+8. Swagger api doc is checked into the repo with name swagger-doc
