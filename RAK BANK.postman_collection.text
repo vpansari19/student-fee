@@ -1,0 +1,28 @@
+Add Student curl
+
+curl --location 'http://localhost:8080/skiply/students' \
+--header 'Content-Type: application/json' \
+--data '{
+  "studentName": "Alex",
+  "grade": "2",
+  "mobileNumber": "1234569990",
+  "schoolName": "ZZ"
+}'
+
+
+Add Fees Curl
+
+curl --location 'http://localhost:8080/skiply/fees/collectFees' \
+--header 'Content-Type: application/json' \
+--data '{
+  "studentId": "1",
+  "cardNumber": "1234-1111-2222-1111",
+  "cardType": "Rupay",
+  "customAmount": "201",
+  "currency": "INR"
+}'
+
+
+View Receipt Curl
+
+curl --location 'http://localhost:8080/skiply/fees/receipt?studentId=1'
